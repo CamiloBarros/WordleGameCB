@@ -6,7 +6,7 @@ const Box = ({ letter, state }) => {
   const states = {
     correct: 'bg-green-700 text-white',
     present: 'bg-sky-700 text-white',
-    none: 'bg-red-500/70 text-white',
+    none: 'bg-gray-500/70 text-white',
     empty: 'bg-white',
     transparent: 'bg-transparent text-white'
   }

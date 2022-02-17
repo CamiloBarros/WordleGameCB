@@ -5,7 +5,7 @@ const FieldText = ({ onTyped, onEnter, text, stateGame }) => {
   const placeHolder = {
     Win: 'You Win',
     Lose: 'You Lost',
-    Playing: 'type your word...'
+    Playing: 'Type your word...'
   }
 
   return (

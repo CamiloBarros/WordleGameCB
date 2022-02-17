@@ -2,7 +2,7 @@ import Home from './page/Home'
 
 function App() {
   return(
-    <div className='bg-gradient-to-t from-stone-800 via-stone-800 to-stone-900'>
+    <div className='bg-gradient-to-t bg-neutral-50'>
       <Home />
     </div>
   )
