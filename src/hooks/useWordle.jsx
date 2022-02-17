@@ -1,8 +1,16 @@
 import { useEffect, useState } from 'react'
+import words from '../assets/words'
+
+const randomWord = () => {
+  const date = new Date()
+  const day = date.getDate()
+  return day
+}
 
 export default function useWordle() {
+  const dayNumber = randomWord()
   const [word, setWord] = useState('')
-  const [wordSelected, setWordSelected] = useState('BREAK')
+  const [wordSelected, setWordSelected] = useState( words[dayNumber] )
   const [wordCompleted, setWordCompleted] = useState([])
   const [turns, setTurns] = useState(1)
   const [stateGame, setStateGame] = useState('Playing')
