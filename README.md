@@ -6,6 +6,18 @@
 # WordleGameCB
 WordleGameCB is a game inspired by the Wordle word game developed by Josh Wardle. This application was developed with the aim of putting into practice React concepts such as the use of **Hooks, Custom Hooks and States.** In addition, the use of new technologies: ***Tailwinds as CSS Framework and Vite as a file packer, an alternative to WebPack.***
 
+# How to play
+To play WordleGameCB, just enter the demo attached to this repository and try to guess the word of the day. The colors of the boxes will give you clues when a letter is in the correct position and when it is contained in the word but not yet in the desired position. You only have 6 chances or turns to guess the word. 
+
+## **Colors**
+
+**Green** : Correct position
+**Orange** : Letter contained in the secret word
+**Gray** : Letter is not contained in the secret word.
+
+***Note: Only Spanish words have been added.***
+
+
 ## Features
 **- Input Bar(Text Field)** : By typing the name of the pokemon and pressing enter we can perform a search in the API and display the data of this in case it is found.   
 **- Card** : The game takes place inside a card with minimalist styles and dark design. 
@@ -21,4 +33,5 @@ WordleGameCB is a game inspired by the Wordle word game developed by Josh Wardle
 
 ## Possible Improvements
 - [ ] Add a modal window or alert to notify the user when he/she wins or loses.
-- [ ] Improve the design
+- [ ] Button to change the language and consequently the word bank.
+- [ ] Improve the design.
