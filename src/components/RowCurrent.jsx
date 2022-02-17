@@ -6,12 +6,12 @@ const RowCurrent = ({ word }) => {
     <div className='flex'>
       {
         word.split('').map( (letter, index) => {
-          return <Box key={index} letter={letter} state='white' />
+          return <Box key={index} letter={letter} state='transparent' />
         })
       }
       {
         Array.from(Array(5 - word.length )).map( (_, index) => {
-          return <Box key={index} letter='' state='white' />
+          return <Box key={index} letter='' state='transparent' />
         })
       }
     </div>

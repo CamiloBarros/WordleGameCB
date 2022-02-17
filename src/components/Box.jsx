@@ -4,10 +4,11 @@ import React from 'react'
 const Box = ({ letter, state }) => {
   
   const states = {
-    correct: 'bg-green-500 text-white',
-    present: 'bg-orange-500 text-white',
-    none: 'bg-gray-500 text-white',
-    empty: 'bg-white'
+    correct: 'bg-green-700 text-white',
+    present: 'bg-sky-700 text-white',
+    none: 'bg-red-500/70 text-white',
+    empty: 'bg-white',
+    transparent: 'bg-transparent text-white'
   }
   const bg = states[state]
 
