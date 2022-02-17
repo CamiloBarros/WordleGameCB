@@ -20,5 +20,5 @@ WordleGameCB is a game inspired by the Wordle word game developed by Josh Wardle
 </div>
 
 ## Possible Improvements
-- [] Add a modal window or alert to notify the user when he/she wins or loses.
-- [] Improve the design
+- [ ] Add a modal window or alert to notify the user when he/she wins or loses.
+- [ ] Improve the design
