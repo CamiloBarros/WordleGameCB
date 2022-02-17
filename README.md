@@ -20,9 +20,9 @@ To play WordleGameCB, just enter the demo attached to this repository and try to
 
 ## Features
 **- Input Bar(Text Field)** : By typing the name of the pokemon and pressing enter we can perform a search in the API and display the data of this in case it is found.   
-**- Card** : The game takes place inside a card with minimalist styles and dark design. 
-**- Responsive** : As it is a vertically and horizontally centered design set it became easy to apply responsive parameters for smaller screens.
-**- Effects** : Effects or animations are added as a result of losing or winning the game, in order to represent the state in which we find ourselves.
+**- Card** : The game takes place inside a card with minimalist styles and dark design.  
+**- Responsive** : As it is a vertically and horizontally centered design set it became easy to apply responsive parameters for smaller screens.  
+**- Effects** : Effects or animations are added as a result of losing or winning the game, in order to represent the state in which we find ourselves.  
 
 ## Captures
 <div align='center'>
