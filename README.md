@@ -11,9 +11,9 @@ To play WordleGameCB, just enter the demo attached to this repository and try to
 
 ## **Colors**
 
-**Green** : Correct position
-**Orange** : Letter contained in the secret word
-**Gray** : Letter is not contained in the secret word.
+**Green** : Correct position  
+**Blue** : Letter contained in the secret word  
+**Gray** : Letter is not contained in the secret word.  
 
 ***Note: Only Spanish words have been added.***
 
