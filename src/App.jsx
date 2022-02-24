@@ -1,9 +1,11 @@
-import Home from './page/Home'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return(
     <div className='bg-gradient-to-t bg-neutral-50'>
-      <Home />
+      <div className='flex flex-col justify-between items-center max-w-md mx-auto h-screen p-4 bg-stone-900'>
+        <Outlet />
+      </div>
     </div>
   )
 }

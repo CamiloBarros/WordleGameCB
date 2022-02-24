@@ -7,13 +7,17 @@ const randomWord = () => {
   return day
 }
 
-export default function useWordle() {
+export default function useWordle({ language = 'ES' }) {
   const dayNumber = randomWord()
   const [word, setWord] = useState('')
-  const [wordSelected, setWordSelected] = useState( words[dayNumber] )
+  const [wordSelected, setWordSelected] = useState(null)
   const [wordCompleted, setWordCompleted] = useState([])
   const [turns, setTurns] = useState(1)
   const [stateGame, setStateGame] = useState('Playing')
+
+  useEffect(() => {
+    setWordSelected(words[language][dayNumber])
+  }, [language])
 
   useEffect(() => {
     checkStateGame()
