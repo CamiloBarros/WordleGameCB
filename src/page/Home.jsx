@@ -9,7 +9,6 @@ import useWordle from '../hooks/useWordle'
 
 /**
  * todo: Agregar, alerta de perdió o ganó el juego
- * todo: Bug: Cambio de idioma luego de insertar una palabra
  */
 
 const Home = () => {
